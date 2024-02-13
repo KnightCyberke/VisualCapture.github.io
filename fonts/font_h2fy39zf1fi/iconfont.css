@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('./iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xinlangweibo:before {
+  content: "\f01af";
+  transition: font-size 0.5s;
+}
+
+.icon-weixin:before {
+  content: "\f0106";
+  transition: font-size 0.5s;
+}
+
+.icon-tuite:before {
+  content: "\e61d";
+  transition: font-size 0.5s;
+}
+
+.icon-douyin:before {
+  content: "\e8db";
+  transition: font-size 0.5s;
+}
+
